@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun May 17 17:00:16 2020
+# Process ID: 3788
+# Log file: D:/ATM_BANCAR/planAhead_run_1/planAhead.log
+# Journal file: D:/ATM_BANCAR/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/ATM_BANCAR/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

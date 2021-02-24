@@ -1,0 +1,53 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun May 17 18:06:37 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "anod<3>" LOCATE = SITE "M1" LEVEL 1;
+COMP "anod<1>" LOCATE = SITE "N4" LEVEL 1;
+COMP "eliberare_numerar" LOCATE = SITE "R8" LEVEL 1;
+COMP "anod<2>" LOCATE = SITE "L1" LEVEL 1;
+COMP "anod<0>" LOCATE = SITE "N2" LEVEL 1;
+COMP "adresa_card<0>" LOCATE = SITE "U9" LEVEL 1;
+COMP "adresa_card<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "adresa_card<2>" LOCATE = SITE "R7" LEVEL 1;
+COMP "op<0>" LOCATE = SITE "R5" LEVEL 1;
+COMP "op<1>" LOCATE = SITE "V7" LEVEL 1;
+COMP "clk1" LOCATE = SITE "T16" LEVEL 1;
+PIN clk1_pin<0> = BEL "clk1" PINNAME PAD;
+PIN "clk1_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "clk2" LOCATE = SITE "R10" LEVEL 1;
+PIN clk2_pin<0> = BEL "clk2" PINNAME PAD;
+PIN "clk2_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "clk3" LOCATE = SITE "F15" LEVEL 1;
+PIN clk3_pin<0> = BEL "clk3" PINNAME PAD;
+PIN "clk3_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "clk4" LOCATE = SITE "V10" LEVEL 1;
+PIN clk4_pin<0> = BEL "clk4" PINNAME PAD;
+PIN "clk4_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "clk5" LOCATE = SITE "E16" LEVEL 1;
+PIN clk5_pin<0> = BEL "clk5" PINNAME PAD;
+PIN "clk5_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "bancnota_introdusa<7>" LOCATE = SITE "R3" LEVEL 1;
+COMP "bancnota_introdusa<8>" LOCATE = SITE "P3" LEVEL 1;
+COMP "bancnota_introdusa<5>" LOCATE = SITE "T3" LEVEL 1;
+COMP "bancnota_introdusa<6>" LOCATE = SITE "T1" LEVEL 1;
+COMP "bancnota_introdusa<0>" LOCATE = SITE "V6" LEVEL 1;
+COMP "bancnota_introdusa<3>" LOCATE = SITE "V2" LEVEL 1;
+COMP "bancnota_introdusa<4>" LOCATE = SITE "U2" LEVEL 1;
+COMP "bancnota_introdusa<1>" LOCATE = SITE "V5" LEVEL 1;
+COMP "bancnota_introdusa<2>" LOCATE = SITE "U4" LEVEL 1;
+COMP "eliberare_card" LOCATE = SITE "T8" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+PIN clk_pin<0> = BEL "clk" PINNAME PAD;
+PIN "clk_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "eliberare_chitanta" LOCATE = SITE "V9" LEVEL 1;
+COMP "catod<6>" LOCATE = SITE "L3" LEVEL 1;
+COMP "catod<5>" LOCATE = SITE "N1" LEVEL 1;
+COMP "catod<0>" LOCATE = SITE "L6" LEVEL 1;
+COMP "catod<2>" LOCATE = SITE "K3" LEVEL 1;
+COMP "catod<1>" LOCATE = SITE "M2" LEVEL 1;
+COMP "catod<4>" LOCATE = SITE "L5" LEVEL 1;
+COMP "catod<3>" LOCATE = SITE "L4" LEVEL 1;
+SCHEMATIC END;
+

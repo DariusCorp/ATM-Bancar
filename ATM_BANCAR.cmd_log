@@ -1,0 +1,63 @@
+xst -intstyle ise -ifn "D:/ATM_BANCAR/ATM_BANCAR.xst" -ofn "D:/ATM_BANCAR/ATM_BANCAR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ATM_BANCAR_map.ncd ATM_BANCAR.ngd ATM_BANCAR.pcf 
+par -w -intstyle ise -ol high -mt off ATM_BANCAR_map.ncd ATM_BANCAR.ncd ATM_BANCAR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ATM_BANCAR.twx ATM_BANCAR.ncd -o ATM_BANCAR.twr ATM_BANCAR.pcf -ucf ATM_bancar.ucf 
+bitgen -intstyle ise -f ATM_BANCAR.ut ATM_BANCAR.ncd 
+xst -intstyle ise -ifn "D:/ATM_BANCAR/ATM_BANCAR.xst" -ofn "D:/ATM_BANCAR/ATM_BANCAR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ATM_BANCAR_map.ncd ATM_BANCAR.ngd ATM_BANCAR.pcf 
+par -w -intstyle ise -ol high -mt off ATM_BANCAR_map.ncd ATM_BANCAR.ncd ATM_BANCAR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ATM_BANCAR.twx ATM_BANCAR.ncd -o ATM_BANCAR.twr ATM_BANCAR.pcf -ucf ATM_bancar.ucf 
+bitgen -intstyle ise -f ATM_BANCAR.ut ATM_BANCAR.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ATM_BANCAR_map.ncd ATM_BANCAR.ngd ATM_BANCAR.pcf 
+par -w -intstyle ise -ol high -mt off ATM_BANCAR_map.ncd ATM_BANCAR.ncd ATM_BANCAR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ATM_BANCAR.twx ATM_BANCAR.ncd -o ATM_BANCAR.twr ATM_BANCAR.pcf -ucf ATM_bancar.ucf 
+bitgen -intstyle ise -f ATM_BANCAR.ut ATM_BANCAR.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ATM_BANCAR_map.ncd ATM_BANCAR.ngd ATM_BANCAR.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ATM_BANCAR_map.ncd ATM_BANCAR.ngd ATM_BANCAR.pcf 
+par -w -intstyle ise -ol high -mt off ATM_BANCAR_map.ncd ATM_BANCAR.ncd ATM_BANCAR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ATM_BANCAR.twx ATM_BANCAR.ncd -o ATM_BANCAR.twr ATM_BANCAR.pcf -ucf ATM_bancar.ucf 
+bitgen -intstyle ise -f ATM_BANCAR.ut ATM_BANCAR.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ATM_BANCAR_map.ncd ATM_BANCAR.ngd ATM_BANCAR.pcf 
+par -w -intstyle ise -ol high -mt off ATM_BANCAR_map.ncd ATM_BANCAR.ncd ATM_BANCAR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ATM_BANCAR.twx ATM_BANCAR.ncd -o ATM_BANCAR.twr ATM_BANCAR.pcf -ucf ATM_bancar.ucf 
+bitgen -intstyle ise -f ATM_BANCAR.ut ATM_BANCAR.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ATM_BANCAR_map.ncd ATM_BANCAR.ngd ATM_BANCAR.pcf 
+par -w -intstyle ise -ol high -mt off ATM_BANCAR_map.ncd ATM_BANCAR.ncd ATM_BANCAR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ATM_BANCAR.twx ATM_BANCAR.ncd -o ATM_BANCAR.twr ATM_BANCAR.pcf -ucf ATM_bancar.ucf 
+bitgen -intstyle ise -f ATM_BANCAR.ut ATM_BANCAR.ncd 
+xst -intstyle ise -ifn "D:/ATM_BANCAR/ATM_BANCAR.xst" -ofn "D:/ATM_BANCAR/ATM_BANCAR.syr" 
+xst -intstyle ise -ifn "D:/ATM_BANCAR/ATM_BANCAR.xst" -ofn "D:/ATM_BANCAR/ATM_BANCAR.syr" 
+xst -intstyle ise -ifn "D:/ATM_BANCAR/ATM_BANCAR.xst" -ofn "D:/ATM_BANCAR/ATM_BANCAR.syr" 
+xst -intstyle ise -ifn "D:/ATM_BANCAR/ATM_BANCAR.xst" -ofn "D:/ATM_BANCAR/ATM_BANCAR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ATM_bancar.ucf -p xc7a100t-csg324-3 ATM_BANCAR.ngc ATM_BANCAR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ATM_BANCAR_map.ncd ATM_BANCAR.ngd ATM_BANCAR.pcf 
+par -w -intstyle ise -ol high -mt off ATM_BANCAR_map.ncd ATM_BANCAR.ncd ATM_BANCAR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ATM_BANCAR.twx ATM_BANCAR.ncd -o ATM_BANCAR.twr ATM_BANCAR.pcf -ucf ATM_bancar.ucf 
+bitgen -intstyle ise -f ATM_BANCAR.ut ATM_BANCAR.ncd 

@@ -1,0 +1,181 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun May 17 17:00:16 2020
+# Process ID: 3788
+# Log file: D:/ATM_BANCAR/planAhead_run_1/planAhead.log
+# Journal file: D:/ATM_BANCAR/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -656 day(s)
+INFO: [Device 21-36] Loading parts and site information from D:/ISE/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/ATM_BANCAR/pa.fromHdl.tcl
+# create_project -name ATM_BANCAR -dir "D:/ATM_BANCAR/planAhead_run_1" -part xc7a100tcsg324-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "ATM_bancar.ucf" [current_fileset -constrset]
+Adding file 'D:/ATM_BANCAR/ATM_bancar.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Dec_sute.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Sumator_RAM.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Scazator_RAM.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Pin_zeci.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Pin_unit.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Pin_sute.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Pin_mii.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Num_500.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Num_50.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Num_20.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Num_100.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Num_10.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Numarator_5.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Memorie_ROM_exp_card.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Memorie_RAM_SOLD.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Memorie_RAM_PIN.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Formare_PIN.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Dmux_PIN_PIN_NOU_SUMA.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Demux_OP.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Demux_Bancnote.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Decod_zeci.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Decod_unit.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Decod_Mii.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Decodificator_bancnote.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Comparator_SUME.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Comparator_PIN.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Comparator_DATA.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Comparator_cu_1000.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Comparator_Bancnote.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Afisare_sold.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Afisare_PIN_schimbat.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {C:/My_Designs/Proiect_PSN/Automat_Bancar/src/ATM.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top ATM_BANCAR $srcset
+# add_files [list {ATM_bancar.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc7a100tcsg324-3
+Using Verific elaboration
+Parsing VHDL file "D:/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "D:/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Decod_Mii.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Sumator_RAM.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Scazator_RAM.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Pin_zeci.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Pin_unit.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Pin_sute.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Pin_mii.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Num_500.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Num_50.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Num_20.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Num_100.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Num_10.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Numarator_5.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Memorie_ROM_exp_card.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Memorie_RAM_SOLD.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Memorie_RAM_PIN.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Formare_PIN.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Dmux_PIN_PIN_NOU_SUMA.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Demux_OP.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Demux_Bancnote.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Dec_sute.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Decod_zeci.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Decod_unit.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Decodificator_bancnote.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Comparator_SUME.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Comparator_PIN.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Comparator_DATA.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Comparator_cu_1000.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Comparator_Bancnote.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Afisare_sold.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/Afisare_PIN_schimbat.vhd" into library work
+Parsing VHDL file "C:/My_Designs/Proiect_PSN/Automat_Bancar/src/ATM.vhd" into library work
+Loading clock regions from D:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from D:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from D:/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from D:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from D:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from D:/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from D:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/ConfigModes.xml
+Loading list of drcs for the architecture : D:/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/drc.xml
+Parsing UCF File [D:/ATM_BANCAR/ATM_bancar.ucf]
+Finished Parsing UCF File [D:/ATM_BANCAR/ATM_bancar.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 9a80c0d5
+open_rtl_design: Time (s): elapsed = 00:00:22 . Memory (MB): peak = 875.344 ; gain = 436.473
+update_compile_order -fileset sim_1
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See D:/ATM_BANCAR\planAhead_pid3788.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sun May 17 18:13:35 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead
